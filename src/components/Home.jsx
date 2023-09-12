@@ -399,15 +399,15 @@ export default function Home({ setId }) {
                 </div>
                 <div className='py-5 flex justify-between items-center font-bebas'>
                     <span data-aos="zoom-out-right" className='border-2 border-white w-full'></span>
-                    <span className='text-white text-3xl xl:text-6xl px-6'>CATÁLOGO</span>
+                    <span className='text-3xl text-yellow-400  xl:text-6xl px-6'>OFERTA DEL MES!</span>
                     <span data-aos="zoom-out-left" className='border-2 border-white w-full'></span>
                 </div>
 
 
                 {/* CATÁLOGO */}
                 <div data-aos="zoom-up"
-                    className='relative'>
-
+                    className='m-2 flex justify-center text-center'>
+                         {/*
                     <div style={{ transform: `translateX(-${xCatalogo}%)` }}
                         className={`flex transition duration-200 `}>
 
@@ -439,7 +439,7 @@ export default function Home({ setId }) {
                         </div>
 
                     </div>
-
+                     
                     <button onClick={() => prevCatalogo()}
                         className='absolute top-[50%] left-3 z-30 text-white text-3xl hover:opacity-50 active:scale-75 duration-200'>
                         <BiCaretLeftCircle />
@@ -448,6 +448,13 @@ export default function Home({ setId }) {
                         className='absolute top-[50%] right-3 z-30 text-white text-3xl hover:opacity-50 active:scale-75 duration-200'>
                         <BiCaretRightCircle />
                     </button>
+                    */}
+
+                    <a data-aos="fade-down-right" href="https://www.facebook.com/photo?fbid=619883043457568&set=a.445283337584207" target='_blank'>
+                        <img src="promoimg.jpg" alt="Futura digital" className='w-full h-full object-cover max-w-screen-lg
+                            hover:scale-90 duration-200
+                        ' />
+                    </a>
 
                 </div>
 
